@@ -53,5 +53,19 @@ Bilgisayarınızda bir **Terminal** (macOS/Linux) veya **Git Bash** / **Komut İ
 
 Açtığınız komut satırı penceresine aşağıdaki komutu aynen yapıştırın ve **Enter** tuşuna basın:
 
-```bash
+```bash 
 gh repo clone sudemkirmiz/hava_durumu_projesi
+```
+Ardından proje klasörüne gidin
+```bash 
+cd hava_durumu_projesi
+```
+
+Bu projede kullanılan tüm Python kütüphaneleri requirements.txt dosyasında listelenmiştir. Aşağıdaki komutla hepsini tek tıkla kurabilirsiniz.
+```bash
+pip install -r requiremints.txt
+```
+Projenin tüm analiz adımları aşağıdaki Jupyter Notebook dosyasında bulunmaktadır
+```bash
+jupyter notebook weather_analysis.ipynb	
+```
